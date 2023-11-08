@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(21, 13, 29, 255);
+}
+.react-chatbot-kit-chat-container {
+  position: relative;
+  top: 10vh;
+  left: 20%;
+}
+.react-chatbot-kit-chat-bot-message {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: aqua;
+  font-weight: medium;
+  position: relative;
+  width: 184.5px;
+  margin-left: auto;
+  text-align: left;
+}
