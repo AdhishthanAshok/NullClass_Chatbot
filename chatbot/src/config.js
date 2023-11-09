@@ -2,13 +2,13 @@ import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 import BotAvatar from "./components/BotAvatar";
 
+const botName = "Helping-Bot";
+
 const config = {
-  initialMessages: [createChatBotMessage(`Hello world`)],
+  initialMessages: [
+    createChatBotMessage(`Hello! I'm ${botName}.How can i Help you!`),
+  ],
   botName: "Programming-Bot",
-  customStyles: {
-    botMessageBox: { backgroundColor: "blue" },
-    chatButton: { backgroundColor: "blue" },
-  },
   customComponents: {
     botAvatar: (props) => <BotAvatar {...props} />,
   },
