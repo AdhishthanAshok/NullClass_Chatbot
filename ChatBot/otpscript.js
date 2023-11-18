@@ -15,7 +15,7 @@ function verifyOTP() {
       "OTP Verified successfully! Redirecting...";
 
     setTimeout(function () {
-      window.location.href = "Bot/index.html";
+      window.location.href = "bot/index.html";
     }, 2000);
   } else {
     document.getElementById("message").innerText =
